@@ -31,6 +31,28 @@
     </head>
     <body class="bg-myblue">
 
+        <!-- Navbar Section -->
+        <nav class="fixed w-full bg-transparent z-50 top-0">
+            <div class="container max-w-3xl justify-self-center flex justify-between items-start">
+                <!-- Logo -->
+                <div class="bg-myblue text-white p-6 rounded-br-3xl"">
+                    <a href="/" class="font-bold text-3xl font-[Quintessential]">Dear Journal</a>
+                </div>
+                <!-- Menu Link -->
+                <div class="bg-myblue text-white p-6 rounded-bl-3xl"">
+                    <a href="#" class="font-bold text-lg">Entries</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-white h-[2000px] w-full max-w-3xl mt-4 mr-4 ml-4 justify-self-center">
+
+        </section>
+
+        <footer>
+
+        </footer>
+
         <!--Modal-->
         <div class="modal fixed w-full h-full top-0 left-0 pointer-events-none flex items-center justify-center bg-myblue delay-300 animate-fadeout opacity-0">
             <div class="relative w-full h-full">
@@ -38,26 +60,6 @@
                 <img src="/img/welcome.webp" alt="Centered Image" class="absolute bottom-0 w-full object-cover">
             </div>
         </div>
-
-        <!-- Header Section -->
-        <header class="bg-myblue">
-            <div class="container mx-auto py-6 px-4 flex justify-between items-center">
-                <h1 class="text-3xl font-bold text-white font-[Quintessential]">Dear Journal</h1>
-                <nav>
-                    <ul class="flex space-x-4">
-                        <li><a href="#home" class="text-white hover:text-gray-800">Entries</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-
-        <section class="bg-white">
-
-        </section>
-
-        <footer>
-
-        </footer>
 
     </body>
 </html>
